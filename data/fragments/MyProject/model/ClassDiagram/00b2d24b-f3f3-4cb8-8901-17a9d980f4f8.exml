@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="overview diagram" version="3">
+  <DEPS>
+    <ID name="overview diagram" mc="ClassDiagram" uid="00b2d24b-f3f3-4cb8-8901-17a9d980f4f8"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="overview diagram" mc="ClassDiagram" uid="00b2d24b-f3f3-4cb8-8901-17a9d980f4f8"/>
+    <PID name="myproject" mc="Package" uid="ee57b1c8-0e20-4735-81ce-0c4d93566e00"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">381</ATT>
+      <ATT name="UiData"><![CDATA[eJztWltzokgU/iuUta8Y6G4RNplMzSg7k4pRS83s7lOqgcYwAdpq2iTur98GLzvRGUVUFglVWnLr0+d0f+f24dXH18CXngmLPBp+qKl1pSZ9vL7qWd+JzSXPEZdqEp9NyIcaZeN6QB3ie7TueHjMcFAnjscpq0ccc++pTnwSkJBH83N7+dCXYJict+fnNSnA3yl7WE2q1K6v+oxOCOMzKcSBmMvHMzrlbcyxuPcN+1OyUCKc+n7t4vrqYjlgY+iQz3xSe2MC2GZCFD8f1W3KSH0+NoV+LRzZ2CHOcjLzlQ+Im3KWrhCxGCmRV962boSOyWF84BAXT32+ZuTF3JxthjPiY04cocfamt3Fl6Tn+IrQ3MdRtNgJSVEs4ABkyS50oYxsS5d1Q1FltYkNx9AVF7n69tUW0vhtSF/CDraIvzbxkDMvHK+mpmJFnz3yIi0WZbtkRn1yE7ZoMKGRx8VGbBe+XVjr0fMdRmIZHS/ib9ABMwB8gu0n/A8R0O7HR+NN0Kh7gHogVMHhOMbDwhqkXIoPUNRLFSl74x2dHO8x2OeetVW3/qfW7acv5sPA7N/12uaa2WY4DX5PpeItmf02IBNGIrH6OAbDnRiyWq3haHDfGt0PzHY6dTo3XbPV6/QGawq1qE/ZSqoK9MvFN53Y4dfen8OROTB7o7/75vAga4eP9GXICSM0Hv3G2pH51+im1eueKkIsEC0Z2NZcB1qyDixNRqipyYbrYNmxNegYKkAu2rH9+wSH+4hIAmVE+iYiREEiQ+MYkaHPvACzWTfZwgMy32aQUC6zhwgtbYgQol5nB8cJVIE1HVjvsBcmUMkM2mYG0MZSI4Fc8kjE7jEB3u7yytfkSv41m55bDtMqbKbD5hwc20VGIm89ePaGqM9UzIXDlSwX+9EOkCeinsjshTLnCNK42I2HKEmpO6RxNk2jmv+TvdhfFLYizrDNM1i4AuoPbmMcI2V9ps4sf49XlXxzUuX3Kf3eiuGwXz66WPz8bHV/fetHMGynHZbQtWkQ0LCeuOL8qcUtAeb2vJH+Q2zZEZLYTcjJmPzXHaxXNCnwnZqGqGquXPEt6nNhTbwh0ntJcWl1y5jj9nX2IlIwQE84GFkVn/19/f+jYI7u5rgBmpoq3FxzbVdGNsKyAUlDthUFuU3YFEEAHs/NO3Ts2dgvEg2gFooHyFZb5dzvqydPPiVB5eH9vlqShl/Nr+NXT176lwSd76UcOueOXz3jlh/k3PJXjl/glh+Ur+UHObf8VdlVtfzn0fKDIrb8yV8uxBdke6cKStT0wwaymw1LkzWoYBnpCMiGpihyo6kjXTEcZMEd4XAfP0/8NhR7XKS2HxSq7f/F6/+sUM2ZDwAnT0ylAezhjAAoCSMA8mMEwMkbg9Lg873US+fMCYAz5gRgzpxA5fqFZgVg+VgBmDMrUBVfFS9wLrwALCIvEP8VICEGULZuC5aIGFAQhLDRJLKNDU24ugVlo2kbMkSgQVTSaBhwB5r2cfU2mfh0FhSMGYDnwAxkxWrOzMBGYqgQe0JqAJaEGoD5UQPw5P1BeQD6Xmqmc+YG4BlzAyhnbqDy/WKTA6h85ADKmRyo6q+KHSg2O7B5a02Bjhc+RSmCyr8iOvrz]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[overview diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
