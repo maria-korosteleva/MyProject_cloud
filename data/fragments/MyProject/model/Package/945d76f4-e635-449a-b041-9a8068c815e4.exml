@@ -2,6 +2,11 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Use Case Model" version="3">
   <DEPS>
     <ID name="Use Case Model" mc="Package" uid="945d76f4-e635-449a-b041-9a8068c815e4"/>
+    <COMPID name="Main" mc="UseCaseDiagram" uid="550b953c-ceb4-41f2-8e26-43697fb1e2f7"/>
+    <COMPID name="Зарегистрированный пользователь" mc="Actor" uid="be34b48c-2968-4db0-80b4-e37d4f01fd1f"/>
+    <COMPID name="Незарегистрированный пользователь" mc="Actor" uid="2fd2cd75-0110-49a5-b1c1-2e1ce7c2f595"/>
+    <COMPID name="Пользователь" mc="Actor" uid="5c89a7cc-b9e6-4694-b6fa-d4da27639874"/>
+    <COMPID name="СетевоеХранилищеДанных" mc="Class" uid="84faa1bf-863e-4202-94d8-43962deafbe5"/>
     <EXTID name="model" mc="Stereotype" uid="f75794cc-275e-4a8a-917f-2d05de475859"/>
   </DEPS>
   <OBJECT>
@@ -17,9 +22,18 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="СетевоеХранилищеДанных" mc="Class" uid="84faa1bf-863e-4202-94d8-43962deafbe5"/>
+        <COMPID name="Зарегистрированный пользователь" mc="Actor" uid="be34b48c-2968-4db0-80b4-e37d4f01fd1f"/>
+        <COMPID name="Незарегистрированный пользователь" mc="Actor" uid="2fd2cd75-0110-49a5-b1c1-2e1ce7c2f595"/>
+        <COMPID name="Пользователь" mc="Actor" uid="5c89a7cc-b9e6-4694-b6fa-d4da27639874"/>
+      </COMP>
       <LINK relation="Extension">
         <ID name="model" mc="Stereotype" uid="f75794cc-275e-4a8a-917f-2d05de475859"/>
       </LINK>
+      <COMP relation="Product">
+        <COMPID name="Main" mc="UseCaseDiagram" uid="550b953c-ceb4-41f2-8e26-43697fb1e2f7"/>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>
