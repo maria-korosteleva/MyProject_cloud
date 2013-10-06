@@ -2,6 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Незарегистрированный пользователь" version="3">
   <DEPS>
     <ID name="Незарегистрированный пользователь" mc="Actor" uid="2fd2cd75-0110-49a5-b1c1-2e1ce7c2f595"/>
+    <EXTID name="Зарегистрироваться в системе" mc="UseCase" uid="26942776-844e-46c7-92c4-693e41e4057f"/>
     <EXTID name="Пользователь" mc="Actor" uid="5c89a7cc-b9e6-4694-b6fa-d4da27639874"/>
   </DEPS>
   <OBJECT>
@@ -17,6 +18,80 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="" mc="AssociationEnd" uid="64b4fedf-8ae8-4e8e-8128-96036ce3ddeb"/>
+          <PID name="Незарегистрированный пользователь" mc="Actor" uid="2fd2cd75-0110-49a5-b1c1-2e1ce7c2f595"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="Зарегистрироваться в системе" mc="UseCase" uid="26942776-844e-46c7-92c4-693e41e4057f"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="923e4927-c123-4395-b907-1552e4c3153e"/>
+                <PID name="Незарегистрированный пользователь" mc="Actor" uid="2fd2cd75-0110-49a5-b1c1-2e1ce7c2f595"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Private</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="" mc="AssociationEnd" uid="64b4fedf-8ae8-4e8e-8128-96036ce3ddeb"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="dbc252b0-50c9-4211-a7b5-dbf936d0327a"/>
+                      <PID name="Незарегистрированный пользователь" mc="Actor" uid="2fd2cd75-0110-49a5-b1c1-2e1ce7c2f595"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <OBJECT>
+                <ID name="" mc="Association" uid="dbc252b0-50c9-4211-a7b5-dbf936d0327a"/>
+                <PID name="Незарегистрированный пользователь" mc="Actor" uid="2fd2cd75-0110-49a5-b1c1-2e1ce7c2f595"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="Parent">
         <OBJECT>
           <ID name="Generalization" mc="Generalization" uid="7598426b-d4ba-4859-bff2-4d00fe7cb991"/>

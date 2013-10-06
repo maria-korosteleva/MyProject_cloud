@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Скачать файл с публичным типом доступа по ссылке" version="3">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Искать среди загруженных файлов" version="3">
   <DEPS>
-    <ID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+    <ID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
     <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
     <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
     <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
@@ -10,7 +10,7 @@
     <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
   </DEPS>
   <OBJECT>
-    <ID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+    <ID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
     <PID name="СетевоеХранилищеДанных" mc="Class" uid="84faa1bf-863e-4202-94d8-43962deafbe5"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -18,14 +18,14 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Скачать файл с публичным типом доступа по ссылке]]></ATT>
+      <ATT name="Name"><![CDATA[Искать среди загруженных файлов]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Note" uid="622abd45-e974-4729-8e60-144b2807478f"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="435a9161-9866-4d50-8a7d-fa0d609e1c17"/>
+          <PID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -38,8 +38,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="bbb7bc75-6077-40ea-bd8a-afa3b9589dc9"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="ff4f2a87-f7aa-4014-87c6-0caefa19e18b"/>
+          <PID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -52,8 +52,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="b8d380e5-85a6-4365-9e30-508b6d5d1fa5"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="ae059ddc-a4fe-4247-9490-abedd033b337"/>
+          <PID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -66,8 +66,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="931d3028-be0d-4198-bb96-9572a99db507"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="5150f03f-2356-4480-81c8-b8a8e09dc615"/>
+          <PID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -80,8 +80,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="00e74bd0-dbaf-45d4-9aac-c0312dbc2e48"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="b3e9e4bd-b84f-4492-8f2a-aefc3f2094e6"/>
+          <PID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -94,8 +94,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="358cd0aa-a4e8-46d6-a0a7-a9982821b83f"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="9206e9b2-b4da-447e-809a-69fb9981bef3"/>
+          <PID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>

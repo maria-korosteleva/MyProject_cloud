@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Скачать файл с публичным типом доступа по ссылке" version="3">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CRUD данных о каталоге" version="3">
   <DEPS>
-    <ID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+    <ID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
     <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
     <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
     <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
@@ -10,7 +10,7 @@
     <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
   </DEPS>
   <OBJECT>
-    <ID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+    <ID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
     <PID name="СетевоеХранилищеДанных" mc="Class" uid="84faa1bf-863e-4202-94d8-43962deafbe5"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -18,14 +18,14 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Скачать файл с публичным типом доступа по ссылке]]></ATT>
+      <ATT name="Name"><![CDATA[CRUD данных о каталоге]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Note" uid="622abd45-e974-4729-8e60-144b2807478f"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="491ea4db-1c63-4bf5-b6cf-e7e36f871187"/>
+          <PID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -38,8 +38,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="bbb7bc75-6077-40ea-bd8a-afa3b9589dc9"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="c8bc3b77-f905-4b45-bbd7-9d03961545db"/>
+          <PID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -52,8 +52,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="b8d380e5-85a6-4365-9e30-508b6d5d1fa5"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="bd38600f-22aa-4e7d-a9ee-0ed69829416d"/>
+          <PID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -66,8 +66,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="931d3028-be0d-4198-bb96-9572a99db507"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="d354a713-bd4f-471d-bdc1-6ad59be0472d"/>
+          <PID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -80,8 +80,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="00e74bd0-dbaf-45d4-9aac-c0312dbc2e48"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="197f510f-f032-49f4-ab14-533a0907e56a"/>
+          <PID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>
@@ -94,8 +94,8 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Note" uid="358cd0aa-a4e8-46d6-a0a7-a9982821b83f"/>
-          <PID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+          <ID name="" mc="Note" uid="42cc1ebd-9653-4a07-bf67-a727b1de607e"/>
+          <PID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="Name"></ATT>

@@ -2,10 +2,16 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="СетевоеХранилищеДанных" version="3">
   <DEPS>
     <ID name="СетевоеХранилищеДанных" mc="Class" uid="84faa1bf-863e-4202-94d8-43962deafbe5"/>
+    <COMPID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
+    <COMPID name="CRUD данных о файле" mc="UseCase" uid="d394eed5-85ed-4e54-8da9-964ee58f7c5d"/>
     <COMPID name="Войти в систему" mc="UseCase" uid="fcd0bbdf-b1e5-4c84-9748-1c0ee0c9066c"/>
     <COMPID name="Зарегистрироваться в системе" mc="UseCase" uid="26942776-844e-46c7-92c4-693e41e4057f"/>
     <COMPID name="Изменить пароль" mc="UseCase" uid="6bfd1e30-0ec7-46b0-a75e-77dcfcb26296"/>
-    <COMPID name="Скачать файл по публичной ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+    <COMPID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
+    <COMPID name="Перейти по дереву каталогов" mc="UseCase" uid="1370eee5-65e6-4421-9bda-06434eab1288"/>
+    <COMPID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+    <COMPID name="Сортировать список файлов и каталогов" mc="UseCase" uid="74a2bc35-99c2-478e-8fa7-94079596b88f"/>
+    <COMPID name="Удалить учетную запись" mc="UseCase" uid="25745a11-d776-4075-96bf-25df2128ab2a"/>
     <EXTID name="subject" mc="Stereotype" uid="9de695f3-2792-4a40-8bd5-4beea8f2177d"/>
   </DEPS>
   <OBJECT>
@@ -27,7 +33,13 @@
         <COMPID name="Войти в систему" mc="UseCase" uid="fcd0bbdf-b1e5-4c84-9748-1c0ee0c9066c"/>
         <COMPID name="Зарегистрироваться в системе" mc="UseCase" uid="26942776-844e-46c7-92c4-693e41e4057f"/>
         <COMPID name="Изменить пароль" mc="UseCase" uid="6bfd1e30-0ec7-46b0-a75e-77dcfcb26296"/>
-        <COMPID name="Скачать файл по публичной ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+        <COMPID name="Скачать файл с публичным типом доступа по ссылке" mc="UseCase" uid="ca047c8b-eaa9-4e50-9a22-f10a750ea2d3"/>
+        <COMPID name="Сортировать список файлов и каталогов" mc="UseCase" uid="74a2bc35-99c2-478e-8fa7-94079596b88f"/>
+        <COMPID name="Перейти по дереву каталогов" mc="UseCase" uid="1370eee5-65e6-4421-9bda-06434eab1288"/>
+        <COMPID name="Искать среди загруженных файлов" mc="UseCase" uid="5ad53289-ce90-4ac4-bd7a-8bdc66a942d1"/>
+        <COMPID name="CRUD данных о файле" mc="UseCase" uid="d394eed5-85ed-4e54-8da9-964ee58f7c5d"/>
+        <COMPID name="CRUD данных о каталоге" mc="UseCase" uid="b219f497-a880-4cca-aa26-352bb42a869b"/>
+        <COMPID name="Удалить учетную запись" mc="UseCase" uid="25745a11-d776-4075-96bf-25df2128ab2a"/>
       </COMP>
       <LINK relation="Extension">
         <ID name="subject" mc="Stereotype" uid="9de695f3-2792-4a40-8bd5-4beea8f2177d"/>
