@@ -2,6 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Изменить пароль" version="3">
   <DEPS>
     <ID name="Изменить пароль" mc="UseCase" uid="6bfd1e30-0ec7-46b0-a75e-77dcfcb26296"/>
+    <COMPID name="Activity" mc="Activity" uid="585b0b0a-2e8c-479d-b404-2e90c4baa731"/>
     <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
     <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
     <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
@@ -22,6 +23,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Activity" uid="585b0b0a-2e8c-479d-b404-2e90c4baa731"/>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Note" uid="9d771b8d-e083-49c1-a5a5-7fec8fb1562f"/>
